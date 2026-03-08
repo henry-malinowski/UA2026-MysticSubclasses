@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/Foundry-v13-informational)
 
 # UA2026-MysticSubclasses
+
 ## Features
 
 - Full subclass integration in the FoundryVTT compendium system of the 4 Mystic Subclasses UA documents.
@@ -26,7 +27,7 @@
 
 ## 3 Scaling Vestige stat blocks for your Vestige Patron Warlock
 
-<img src="https://raw.githubusercontent.com/henry-malinowski/UA2026-MysticSubclasses/refs/heads/main/github-assets/example_3.png">
+<img src="https://raw.githubusercontent.com/henry-malinowski/UA2026-MysticSubclasses/refs/heads/main/github-assets/example_3.webp">
 
 ## Georgous compendium packs
 
@@ -36,6 +37,6 @@
 
 To install and use the UA2026-MysticSubclasses module for Foundry Virtual Tabletop, simply paste the following URL into the **Install Module** dialog on the Setup menu of the application.
 
-`https://raw.githubusercontent.com/henry-malinowski/UA2026-MysticSubclasses/master/module.json`
+`https://github.com/henry-malinowski/UA2026-MysticSubclasses/releases/latest/download/module.json`
 
 If you wish to manually install the module, you must clone or extract it into the `Data/modules/UA2026-MysticSubclasses` folder. You may do this by cloning the repository or downloading a zip archive from the [Releases Page](https://github.com/henry-malinowski/UA2026-MysticSubclasses/releases).
