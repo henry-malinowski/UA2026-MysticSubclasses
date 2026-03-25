@@ -1,6 +1,7 @@
 # Documents
 
 - UA2026-MysticSubclasses - `uaMysticClassDoc`
+- Changelog - `uaChangelog00000`
 - Images- `uaArtHandout0000`
 
 # Class Features
