@@ -1,0 +1,201 @@
+folder: 3XRl1YHKvJOmrEE6
+name: Mystic Focus
+type: feat
+_id: uamnkMysticFocus
+img: icons/magic/light/hand-sparks-glow-yellow.webp
+system:
+  activities:
+    KM11Z8CLIuobCrHD:
+      type: utility
+      name: Recover Spell Slot
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '4'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: 1 + @scaling + floor(@scaling / 3)
+            target: Compendium.dnd-players-handbook.classes.Item.phbmnkMonksFocus
+            scaling:
+              mode: ''
+          - type: spellSlots
+            value: '-1'
+            target: '1'
+            scaling:
+              mode: level
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: systems/dnd5e/icons/svg/damage/force.svg
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      _id: KM11Z8CLIuobCrHD
+    C7II0O1fPlg0zrOk:
+      type: utility
+      name: Regain Focus Points
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '1'
+            scaling:
+              mode: level
+              formula: ''
+          - type: itemUses
+            value: 0 - @scaling
+            target: Compendium.dnd-players-handbook.classes.Item.phbmnkMonksFocus
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: systems/dnd5e/icons/svg/activity/heal.svg
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      _id: C7II0O1fPlg0zrOk
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You keep your magical power and martial focus in perfect balance,
+      allowing you to convert spell slots into Focus Points, or convert Focus
+      Points into spell slots.</p><p><strong>Converting Spell Slots to Focus
+      Points.</strong> You can expend a spell slot to regain a number of
+      expended Focus Points equal to the slot’s level (no action
+      required).</p><p><strong>Recovering Spell Slots.</strong> As a Bonus
+      Action, you can transform unexpended Focus Points to recover one expended
+      spell slot. The Recovering Spell Slots table shows the cost of recovering
+      a spell slot of a given level, and it lists the minimum Monk level you
+      must be to recover a slot. You can recover a spell slot no higher than
+      level 4.</p><table><caption>Recovering Spell
+      Slots</caption><thead><tr><td>Spell Slot Level</td><td>Focus Point
+      Cost</td><td>Min. Monk
+      Level</td></tr></thead><tbody><tr><td>1</td><td>2</td><td>6</td></tr><tr><td>2</td><td>3</td><td>7</td></tr><tr><td>3</td><td>5</td><td>13</td></tr><tr><td>4</td><td>6</td><td>19</td></tr></tbody></table><section
+      class="secret" id="secret-Y14NgV8GhzbNK7aj"><p><strong>Foundry
+      Note</strong></p><p>The <strong>Regain Spell Slot</strong> activity will
+      convert your Focus Points into spell slots.</p><p>The <strong>Regain Focus
+      Points</strong> activity will convert your chosen spell slot into Focus
+      Points.</p></section>
+    chat: ''
+  identifier: mystic-focus
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 6
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772936301747
+  modifiedTime: 1772936524837
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uamnkMysticFocus'

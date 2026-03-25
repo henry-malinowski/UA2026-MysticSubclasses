@@ -1,0 +1,334 @@
+folder: pc5CSRVFokVDg9ec
+name: Vestige Companion
+type: feat
+_id: uawlkVestigeComp
+img: icons/magic/death/skull-horned-worn-fire-blue.webp
+system:
+  activities:
+    cNKLTvXOrj4eYpwB:
+      type: summon
+      _id: cNKLTvXOrj4eYpwB
+      sort: 0
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: space
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      bonuses:
+        ac: '@abilities.cha.mod'
+        hd: '@classes.warlock.levels'
+        hp: >-
+          @classes.warlock.levels * (@summon.attributes.hd.denomination * 0.5 +
+          1)
+        attackDamage: '@abilities.cha.mod'
+        saveDamage: ''
+        healing: '@abilities.cha.mod'
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: true
+        disposition: false
+        proficiency: true
+        saves: true
+        ability: cha
+      profiles:
+        - count: ''
+          name: ''
+          _id: UJoMKK85pxu1OhBh
+          uuid: Compendium.UA2026-MysticSubclasses.actors.Actor.uaVestigeCelesti
+          level: {}
+          types: []
+        - count: ''
+          name: ''
+          _id: hTb2HwBBNjr0LjrO
+          uuid: Compendium.UA2026-MysticSubclasses.actors.Actor.uaVestigeUndead0
+          level: {}
+          types: []
+        - count: ''
+          name: ''
+          _id: H7ZefKueGZ8YCNIg
+          uuid: Compendium.UA2026-MysticSubclasses.actors.Actor.uaVestigeFiendis
+          level: {}
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+      name: Summon Vestige
+    R1hcGjAuT2Ew355n:
+      type: utility
+      name: Command
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: any
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: Primal Companion
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 100000
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      _id: R1hcGjAuT2Ew355n
+    WIi79h843qsGQ9qO:
+      type: summon
+      sort: 200000
+      activation:
+        type: minute
+        override: false
+        condition: ''
+        value: 1
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: space
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      bonuses:
+        ac: '@abilities.cha.mod'
+        hd: '@classes.warlock.levels'
+        hp: >-
+          @classes.warlock.levels * (@summon.attributes.hd.denomination * 0.5 +
+          1)
+        attackDamage: '@abilities.cha.mod'
+        saveDamage: ''
+        healing: '@abilities.cha.mod'
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: true
+        disposition: false
+        proficiency: true
+        saves: true
+        ability: cha
+      profiles:
+        - count: ''
+          name: ''
+          _id: UJoMKK85pxu1OhBh
+          uuid: Compendium.UA2026-MysticSubclasses.actors.Actor.uaVestigeCelesti
+          level:
+            min: null
+            max: null
+        - count: ''
+          name: ''
+          _id: hTb2HwBBNjr0LjrO
+          uuid: Compendium.UA2026-MysticSubclasses.actors.Actor.uaVestigeUndead0
+          level:
+            min: null
+            max: null
+        - count: ''
+          name: ''
+          _id: H7ZefKueGZ8YCNIg
+          uuid: Compendium.UA2026-MysticSubclasses.actors.Actor.uaVestigeFiendis
+          level:
+            min: null
+            max: null
+      summon:
+        prompt: true
+        mode: ''
+      name: Resummon Vestige
+      _id: WIi79h843qsGQ9qO
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>The vestige manifests, aiding you to do so and drawing strength from
+      your pact. It uses the Vestige Companion stat block and is a
+      @UUID[Compendium.UA2026-MysticSubclasses.actors.Actor.uaVestigeCelesti]{Celestial},
+      @UUID[Compendium.UA2026-MysticSubclasses.actors.Actor.uaVestigeFiendis]{Fiend},
+      or
+      @UUID[Compendium.UA2026-MysticSubclasses.actors.Actor.uaVestigeUndead0]{Undead}
+      (choose when you gain this feature). You determine what the vestige looks
+      like, but regardless of its form, the vestige bears features indicating
+      its supernatural origin. For example, you might decide your vestige is an
+      oversize floating skull etched with sigils, a circle of glowing runes, or
+      a constantly shifting abstract shape.</p><p>The vestige is Friendly to you
+      and your allies and obeys your commands. It vanishes if you
+      die.</p><p><strong>The Vestige in Combat.</strong> In combat, the vestige
+      acts during your turn. It can move and use its Reaction on its own, but
+      the only action it takes is the Dodge action unless you take a Bonus
+      Action to command it to take an action in its stat block or some other
+      action. You can also sacrifice one of your attacks when you take the
+      Attack action to command the vestige to take the Vestige’s Strike action.
+      If you have the Incapacitated condition, the vestige acts on its own and
+      isn’t limited to the Dodge action.</p><p><strong>Disappearance of the
+      Vestige.</strong> When the vestige drops to 0 Hit Points, it disappears.
+      You can spend 1 minute performing a magic ceremony to manifest the vestige
+      again; it reappears with its maximum Hit Points in an unoccupied space
+      within 5 feet of you. As a Magic action, you can temporarily dismiss the
+      vestige to a pocket dimension. As a Magic action while it is temporarily
+      dismissed, you can cause the vestige to reappear in an unoccupied space
+      within 30 feet of you. Whenever the vestige drops to 0 Hit Points or
+      disappears into the pocket dimension, it leaves behind in its space
+      anything it was wearing or carrying.</p><p>Whenever you finish a
+      &amp;Reference[Long Rest], you can summon the vestige in a new form, which
+      appears in an unoccupied space within 5 feet of you. You choose its
+      appearance and whether it is a Celestial, Fiend, or Undead. If the vestige
+      is already manifested from this feature, its form changes to the new
+      one.</p><section class="fvtt advice"
+      style="margin:0.5rem;padding:0.5rem"><article><p>In addition to the noted
+      usage of your statistics in the companion's Traits and Actions, the
+      following attributes are also
+      affected.</p><table><caption>Common</caption><tbody><tr><td><strong>AC</strong></td><td>13
+      plus your Charisma
+      modifier</td></tr><tr><td><strong>PB</strong></td><td>equals your
+      Proficiency Bonus</td></tr><tr><td><strong>HP</strong></td><td>4 plus four
+      times your Warlock
+      level</td></tr><tr><td><strong>HD</strong></td><td>[d6s] equal to your
+      Warlock level</td></tr></tbody></table></article></section><section
+      class="secret" id="secret-sukIH7PiyLbd7pAx"><p><strong>Foundry
+      Note</strong></p><p>This feature will automatically prompt you to summon
+      and choose a Vestige Companion when you complete a long rest.</p><p>The
+      <strong>Resummon Vestige </strong>activity will allow you to manually
+      summon a vestige but does not automate being committed to form chosen when
+      completing a long rest.</p><p>The <strong>Command</strong> activity only
+      needs to be used if you're tracking your Bonus Action usage.</p></section>
+    chat: ''
+  identifier: vestige-companion
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: true
+    level: 3
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772944064878
+  modifiedTime: 1772980901368
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkVestigeComp'

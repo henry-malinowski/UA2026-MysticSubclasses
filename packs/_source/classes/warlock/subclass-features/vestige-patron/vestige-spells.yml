@@ -1,0 +1,84 @@
+folder: pc5CSRVFokVDg9ec
+name: Vestige Spells
+type: feat
+_id: uawlkVestigeSpel
+img: icons/magic/sonic/explosion-shock-wave-teal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: o1I3N6xaco1m8nUF
+      configuration:
+        allowDrops: false
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uawlkLifeSpells0
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uawlkLightSpells
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uawlkTickerySpel
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uawlkWarSpells00
+        restriction:
+          list: []
+          type: class
+          subtype: domainSpellList
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: Choose Domain Spells
+      hint: ''
+      icon: icons/magic/sonic/explosion-shock-wave-teal.webp
+  description:
+    value: >-
+      <p>The magic of your Vestige Companion ensures you always have certain
+      spells ready. Select one of the following Cleric Domains: Life, Light,
+      Trickery, or War. The Domain Spells of your chosen Domain are Warlock
+      spells for you. When you reach a Warlock level equal to a Cleric Level
+      listed on the Domain Spells table for the Domain you have chosen, you
+      thereafter always have the listed spells prepared.</p><p>For example, if
+      you chose the War Domain for this feature, when you reach Warlock level 3,
+      you would have the <em>Guiding Bolt</em>, <em>Magic Weapon</em>,
+      <em>Shield of Faith</em>, and <em>Spiritual Weapon</em> spells
+      prepared.</p><section class="secret"
+      id="secret-VDKPcZTRxa30WO9q"><p><strong>Foundry Note</strong></p><p>This
+      feature grants you a choice of a Cleric Domain spell list, which will be
+      added as another feature to grant you that lists spell automatically as
+      you gain Warlock levels.</p></section>
+    chat: ''
+  identifier: vestige-spells
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772944090193
+  modifiedTime: 1772980949998
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkVestigeSpel'

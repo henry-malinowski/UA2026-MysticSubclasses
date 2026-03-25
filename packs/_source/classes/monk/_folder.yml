@@ -1,0 +1,19 @@
+type: Item
+folder: null
+name: Monk
+color: null
+sorting: a
+_id: jYxc2E4FATzYbRyx
+description: ''
+sort: 200000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772502932866
+  modifiedTime: 1772768469182
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!folders!jYxc2E4FATzYbRyx'

@@ -1,0 +1,97 @@
+folder: rmTyW1HrWt8MD1a3
+name: Oath of the Spellguard
+type: subclass
+_id: uapdnSpellguard0
+img: modules/UA2026-MysticSubclasses/assets/icons/classes/spellguard.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: g8FtFBVkwhHGQxFw
+      configuration:
+        items:
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uapdnGuardianBon
+            optional: false
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uapdnSpellguardS
+            optional: false
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uapdnStrikeSpell
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: uK7luMoRziNDrkGW
+      configuration:
+        items:
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uapdnConcentrati
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: Brp9QAmiY5cuXUJX
+      configuration:
+        items:
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uapdnSpellBreaki
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: B0ZFJmC8s7co51af
+      configuration:
+        items:
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uapdnEternalSpel
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p><em>Protect Your Allies from Villainous
+      Magic</em></p></blockquote><p>Paladins who take the Oath of the Spellguard
+      are sworn to battle those who use magic to harm others. They often serve
+      as bodyguards to upstanding mages, but their most important role is
+      protecting allies from devastating magical attacks. Those who swear this
+      oath ensure that villains who misuse magic are brought to
+      justice.</p><p>These paladins share the following
+      tenets:</p><ul><li><p>Protect the innocent from wicked
+      mages.</p></li><li><p>Prevent magic from falling into villains’
+      hands.</p></li><li><p>Protect mages who use magic honorably.</p></li></ul>
+    chat: ''
+  identifier: spellguard
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: paladin
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772936358348
+  modifiedTime: 1772936502000
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapdnSpellguard0'

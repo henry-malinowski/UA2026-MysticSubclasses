@@ -1,0 +1,93 @@
+folder: GdJ88KaKBiA9BPeB
+name: Magic Stealer
+type: subclass
+_id: uargeMagicSteale
+img: modules/UA2026-MysticSubclasses/assets/icons/classes/magic-stealer.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: IYXxIWv3qjmDJ7CL
+      configuration:
+        items:
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uargeEmpowerSnea
+            optional: false
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uargeDrainMagic0
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: fdGCCHHPe3hMmBy6
+      configuration:
+        items:
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uargeMagicSabota
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: 1NJyb7EBoK2UxYj9
+      configuration:
+        items:
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uargeImprovedDra
+            optional: false
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uargeOccultShrou
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 13
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: RPg9KdndcQYtrBDL
+      configuration:
+        items:
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uargeEldritchImp
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p><em>Steal Magical Power to Empower
+      Yourself</em></p></blockquote><p>While ordinary thieves are cutting purses
+      and burgling homes, a Magic Stealer is after a much more valuable prize:
+      magic. The Magic Stealer preys on spellcasters, repurposing their magic
+      and eluding divination spells to take magical power at the point of a
+      knife.</p>
+    chat: ''
+  identifier: magic-stealer
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: rogue
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772936524737
+  modifiedTime: 1772943957397
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uargeMagicSteale'

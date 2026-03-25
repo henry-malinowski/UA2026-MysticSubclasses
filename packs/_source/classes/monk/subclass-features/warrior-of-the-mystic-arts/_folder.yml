@@ -1,0 +1,18 @@
+type: Item
+folder: 2Z4dEx5gxQOFx6Oh
+name: Warrior of the Mystic Arts
+color: null
+sorting: a
+_id: 3XRl1YHKvJOmrEE6
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  lastModifiedBy: dnd5ebuilder0000
+  modifiedTime: 1772503017393
+_key: '!folders!3XRl1YHKvJOmrEE6'

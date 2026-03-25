@@ -1,0 +1,178 @@
+folder: USbEBMFGGEjx7fwk
+name: Drain Magic
+type: feat
+_id: uargeDrainMagic0
+img: icons/magic/control/debuff-energy-hold-levitate-teal-blue.webp
+system:
+  activities:
+    4TGhEGthLbxPilO1:
+      type: utility
+      name: Drain Magic
+      _id: 4TGhEGthLbxPilO1
+      sort: 100000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: willing
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: modules/UA2026-MysticSubclasses/assets/icons/icicles-fence.svg
+    LyYldk5QTDKhXTOE:
+      type: utility
+      name: Improved Drain Magic
+      _id: LyYldk5QTDKhXTOE
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: willing
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 13
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: rogue
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: modules/UA2026-MysticSubclasses/assets/icons/icicles-fence.svg
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>You can drain power from ongoing spells to recharge your allies’ magic.
+      As a Magic Action, you can touch a willing creature and end one ongoing
+      level 1 or level 2 spell on it; the creature immediately recovers one
+      expended spell slot of level 2 or lower (the target’s choice).</p><p>Once
+      you use this feature, you can’t do so again until you finish a Short or
+      Long Rest.</p><section class="secret"
+      id="secret-gwD42IsVRlMQdAwq"><p><strong>Foundry
+      Note</strong></p><p>Regaining of spell slots with this feature is not
+      automated. Spell slots must be restored manually by the willing
+      creature.</p><p>This feature will automatically change to a bonus action
+      when you gain Improved Drain Magic.</p></section>
+    chat: ''
+  identifier: drain-magic
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772937719063
+  modifiedTime: 1772980319575
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uargeDrainMagic0'

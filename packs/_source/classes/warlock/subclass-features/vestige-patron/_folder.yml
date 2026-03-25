@@ -1,0 +1,18 @@
+type: Item
+folder: lxXMZGyQZp139qjp
+name: Vestige Patron
+color: null
+sorting: a
+_id: pc5CSRVFokVDg9ec
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  lastModifiedBy: dnd5ebuilder0000
+  modifiedTime: 1772503042781
+_key: '!folders!pc5CSRVFokVDg9ec'

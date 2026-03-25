@@ -1,0 +1,92 @@
+folder: 3XRl1YHKvJOmrEE6
+name: Spellcasting
+type: feat
+_id: uamnkSpellcast00
+img: icons/magic/air/air-smoke-casting.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You have learned to cast spells. See
+      @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{the
+      rules on spellcasting}. The information below details how you use those
+      rules as a Warrior of the Mystic Arts.</p><p><strong>Cantrips.</strong>
+      You know two cantrips of your choice from the
+      @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Sorcerer
+      spell list}.
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBladeWard0]{Blade
+      Ward} and
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThundercla]{Thunderclap}
+      are recommended.</p><p>Whenever you gain a Sorcerer level, you can replace
+      one of your cantrips, except <em>Mage Hand</em>, with another Sorcerer
+      cantrip of your choice.</p><p>When you reach Sorcerer level 10, you learn
+      another Sorcerer cantrip of your choice.</p><p><strong>Spell
+      Slots.</strong> The
+      @UUID[Compendium.UA2026-MysticSubclasses.content.JournalEntry.uaMysticClassDoc.JournalEntryPage.9O7olxLiwa7OKC6o]{Warrior
+      of the Mystic Arts Spellcasting table} shows how many spell slots you have
+      to cast your level 1+ spells. You regain all expended spell slots when you
+      finish a Long Rest.</p><p><strong>Prepared Spells of Level 1+.</strong>
+      You prepare the list of level 1+ spells that are available for you to cast
+      with this feature. To start, choose three level 1 Sorcerer spells.
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{Jump},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Magic
+      Missile}, and
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{Shield}
+      are recommended.</p><p>The number of spells on your list increases as you
+      gain Sorcerer levels, as shown in the Prepared Spells column of the
+      Warrior of the Mystic Arts Spellcasting table. Whenever that number
+      increases, choose additional Sorcerer spells until the number of spells on
+      your list matches the number in the Warrior of the Mystic Arts
+      Spellcasting table. The chosen spells must be of a level for which you
+      have spell slots. For example, if you’re a level 7 Sorcerer, your list of
+      prepared spells can include five Sorcerer spells of level 1 or 2 in any
+      combination.</p><p><strong>Changing Your Prepared Spells.</strong>
+      Whenever you gain a Sorcerer level, you can replace one spell on your list
+      with another Sorcerer spell for which you have spell
+      slots.</p><p><strong>Spellcasting Ability.</strong> Wisdom is your
+      spellcasting ability for your Sorcerer spells.</p><p><strong>Spellcasting
+      Focus.</strong> You can use an Arcane Focus as a Spellcasting Focus for
+      your Sorcerer spells.</p><p><strong>Multiclassing.</strong> If you
+      multiclass and have the Spellcasting feature from more than one class, add
+      one third of your Monk levels (round down) to determine your available
+      spell slots.</p>
+    chat: ''
+  identifier: spellcasting
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772936325397
+  modifiedTime: 1772944241368
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uamnkSpellcast00'

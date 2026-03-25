@@ -1,0 +1,18 @@
+type: Item
+folder: wMyXinZznFD2xvDs
+name: Magic Stealer
+color: null
+sorting: a
+_id: USbEBMFGGEjx7fwk
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  lastModifiedBy: dnd5ebuilder0000
+  modifiedTime: 1772503035679
+_key: '!folders!USbEBMFGGEjx7fwk'

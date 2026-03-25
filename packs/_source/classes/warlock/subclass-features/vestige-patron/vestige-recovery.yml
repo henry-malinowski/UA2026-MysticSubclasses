@@ -1,0 +1,53 @@
+folder: pc5CSRVFokVDg9ec
+name: Vestige Recovery
+type: feat
+_id: uawlkVestigeReco
+img: icons/magic/holy/yin-yang-balance-symbol.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your Vestige Companion now regains its use of Divine Power whenever you
+      finish a Short or Long Rest or when you use your
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkMagicalCun]{Magical
+      Cunning} feature.</p><section class="secret"
+      id="secret-LiHuwAEtmdIcC7On"><p><strong>Foundry Note</strong></p><p>This
+      feature is not automated. You will need to manually restore your vestiges
+      use of Divine Power manually when you complete a short rest or use Magical
+      Cunning.</p></section>
+    chat: ''
+  identifier: vestige-recovery
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 6
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772944076980
+  modifiedTime: 1772981027398
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkVestigeReco'

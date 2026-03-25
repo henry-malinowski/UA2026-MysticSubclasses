@@ -1,0 +1,176 @@
+folder: ysNxUXvgUW1QqTXL
+name: Eternal Spellguard
+type: feat
+_id: uapdnEternalSpel
+img: icons/magic/control/buff-flight-wings-runes-blue-white.webp
+system:
+  activities:
+    oU8wF4ZaY0dddWxr:
+      type: utility
+      name: Regain Use
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling: {}
+          - type: spellSlots
+            value: '1'
+            target: '5'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 200000
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      _id: oU8wF4ZaY0dddWxr
+    XSV60ZktGImsD53O:
+      type: utility
+      name: Eternal Spellguard
+      _id: XSV60ZktGImsD53O
+      sort: 100000
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>As a Bonus Action, you can empower your
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbpdnProtection]{Aura
+      of Protection}, granting the benefits below for 1 minute or until you end
+      them (no action required). Once you use this feature, you can’t use it
+      again until you finish a &amp;Reference[Long Rest]. You can restore your
+      use of this ability by expending a level 5 spell slot (no action
+      required).</p><p><strong>Bodyguard.</strong> While the target of your
+      Guardian Bond is in the aura, that creature has Resistance to all
+      damage.</p><p><strong>Protection from Magic.</strong> You and your allies
+      in the aura have Advantage on saving throws against
+      spells.</p><p><strong>Spell Ward.</strong> Spell attack rolls against you
+      and your allies in the aura have Disadvantage.</p>
+    chat: ''
+  identifier: eternal-spellguard
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 20
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772936395533
+  modifiedTime: 1772936524837
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapdnEternalSpel'

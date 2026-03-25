@@ -1,0 +1,113 @@
+folder: USbEBMFGGEjx7fwk
+name: Occult Shroud
+type: feat
+_id: uargeOccultShrou
+img: icons/magic/perception/hand-eye-fire-blue.webp
+system:
+  activities:
+    hWOJZIXK91CqqiWV:
+      type: cast
+      _id: hWOJZIXK91CqqiWV
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: hour
+        concentration: false
+        override: true
+        value: '24'
+      flags: {}
+      range:
+        units: self
+        override: true
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      spell:
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: false
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplNondetecti
+        ability: int
+        level: 3
+      name: ''
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>Whenever you finish a Long Rest, you can cast the <em>Nondetection</em>
+      spell, using Intelligence as your spellcasting ability. When you do so,
+      you can target only yourself, and the duration increases to 24 hours.</p>
+    chat: ''
+  identifier: occult-shroud
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 13
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772943957317
+  modifiedTime: 1772943957317
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uargeOccultShrou'

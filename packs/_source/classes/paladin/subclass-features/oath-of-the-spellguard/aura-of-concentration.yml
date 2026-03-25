@@ -1,0 +1,109 @@
+folder: ysNxUXvgUW1QqTXL
+name: Aura of Concentration
+type: feat
+_id: uapdnConcentrati
+img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your aura of protection fosters mental focus. You and your allies have
+      Advantage on Constitution saving throws to maintain Concentration while in
+      your Aura of Protection.</p><section class="secret"
+      id="secret-3JKJ33vDEX5KEXmU"><p><strong>Foundry Note</strong></p><p>The
+      feature includes an Active Effect that grants Advantage on Concentration
+      saving throws.</p></section>
+    chat: ''
+  identifier: aura-of-concentration
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 7
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Aura of Concentration
+    img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+    origin: Compendium.UA2026-MysticSubclasses.classes.Item.uapdnConcentrati
+    _id: ukWVD55es1igj7p9
+    type: auraeffects.aura
+    system:
+      showRadius: false
+      applyToSelf: true
+      bestFormula: ''
+      canStack: false
+      collisionTypes:
+        - move
+      color: null
+      combatOnly: false
+      disableOnHidden: true
+      distanceFormula: '@scale.paladin.aura'
+      disposition: 1
+      evaluatePreApply: false
+      opacity: 0.1
+      overrideName: ''
+      script: ''
+      stashedChanges: []
+      stashedStatuses: []
+    changes:
+      - key: system.attributes.concentration.roll.mode
+        mode: 2
+        value: '1'
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You and your allies have Advantage on Constitution saving throws to
+      maintain Concentration while in your Aura of Protection.</p>
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      auraeffects:
+        originalType: base
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uapdnConcentrati.ukWVD55es1igj7p9'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772936373468
+  modifiedTime: 1772979301485
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapdnConcentrati'

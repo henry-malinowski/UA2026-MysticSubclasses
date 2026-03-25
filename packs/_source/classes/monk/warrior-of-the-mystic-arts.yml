@@ -1,0 +1,137 @@
+folder: jYxc2E4FATzYbRyx
+name: Warrior of the Mystic Arts
+type: subclass
+_id: uamnkMysticArts0
+img: modules/UA2026-MysticSubclasses/assets/icons/classes/mystic-arts.webp
+system:
+  advancement:
+    - type: ScaleValue
+      _id: BJlGjkoHPlh4t9BS
+      configuration:
+        identifier: max-prepared
+        type: string
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: '3'
+          '4':
+            value: '4'
+          '7':
+            value: '5'
+          '8':
+            value: '6'
+          '10':
+            value: '7'
+          '11':
+            value: '8'
+          '13':
+            value: '9'
+          '14':
+            value: '10'
+          '16':
+            value: '11'
+          '19':
+            value: '12'
+          '20':
+            value: '13'
+      value: {}
+      title: Prepared Spells
+      hint: ''
+    - type: ScaleValue
+      title: Cantrips
+      _id: fbQJ9U5d5r2Z6IrJ
+      configuration:
+        identifier: ''
+        type: string
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: '2'
+          '10':
+            value: '3'
+      value: {}
+      hint: ''
+    - type: ItemGrant
+      _id: v048qHb8DhMg4BTK
+      configuration:
+        items:
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uamnkSpellcast00
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: o7KTHS5ebBWm4n5z
+      configuration:
+        items:
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uamnkMysticFocus
+            optional: false
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uamnkMysticFight
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: jAH4GHFdZSadjrV1
+      configuration:
+        items:
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uamnkCenteredFoc
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: jGPmT68wVWSpuNiN
+      configuration:
+        items:
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uamnkImprovedMys
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p><em>Weave Martial and Mystic
+      Arts</em></p></blockquote><p>Warriors of the Mystic Arts wield magic to
+      supplement their martial skill. They harness their supernatural focus to
+      enhance their magical and physical abilities.</p>
+    chat: ''
+  identifier: mystic-arts
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: monk
+  spellcasting:
+    progression: third
+    preparation:
+      formula: '@scale.mystic-arts.max-prepared'
+    ability: wis
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772936197442
+  modifiedTime: 1772936325483
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uamnkMysticArts0'

@@ -1,0 +1,191 @@
+folder: pc5CSRVFokVDg9ec
+name: Aura of Power
+type: feat
+_id: uawlkAuraOfPower
+img: icons/magic/holy/angel-winged-humanoid-blue.webp
+system:
+  activities:
+    xViZQ7235EenUhEk:
+      type: utility
+      name: Manifest Aura
+      _id: xViZQ7235EenUhEk
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: hour
+        concentration: false
+        override: false
+        value: max(1,@abilities.cha.mod)
+      effects: []
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '30'
+          count: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: Your vestige companion
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+    TTlu7bQlin2qIosg:
+      type: heal
+      name: Sacrifice Vestige
+      _id: TTlu7bQlin2qIosg
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: When you drop to 0 Hit Points while within the aura
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '@classes.warlock.levels + @abilities.cha.mod'
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>Your Vestige Companion increases in magical strength. As a Magic
+      Action, you can cause the vestige to manifest an aura in a 30-foot
+      Emanation that originates from the vestige. The aura lasts a number of
+      hours equal to your Charisma modifier or until the vestige disappears or
+      is temporarily dismissed. You, the vestige, and your allies within the
+      aura gain Resistance to Fire, Necrotic, and Radiant damage and have
+      Immunity to the Charmed and Frightened conditions. Once you manifest this
+      aura, you can’t do so again until you finish a Long Rest.</p><p>In
+      addition, when you drop to 0 Hit Points while within the aura, you instead
+      change your Hit Points to a number equal to your Warlock level plus your
+      Charisma modifier. The vestige is then dismissed into a pocket dimension
+      and can’t return until you finish a Long Rest.</p><section class="secret"
+      id="secret-K29gcW4fqJnHlqhS"><p><strong>Foundry Note</strong></p><p>The
+      <strong>Manifest Aura</strong> feature will allow you to place an
+      Emanation template on your vestige companion. Resistance granted by this
+      feature is not automated.</p><p>The <strong>Sacrifice Vestige
+      </strong>activity will heal you by an appropriate amount but does not
+      automatically dismiss your vestige companion or prevent resummoning
+      them.</p></section>
+    chat: ''
+  identifier: aura-of-power
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772944003908
+  modifiedTime: 1772981385022
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkAuraOfPower'

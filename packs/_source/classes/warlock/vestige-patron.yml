@@ -1,0 +1,92 @@
+folder: aEHJm6RbPCrhpQIi
+name: Vestige Patron
+type: subclass
+_id: uawlkVestigePatr
+img: modules/UA2026-MysticSubclasses/assets/icons/classes/vestige.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Subclass Features
+      _id: pRbwLCayr0oI3Aa2
+      configuration:
+        items:
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uawlkVestigeComp
+            optional: false
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uawlkVestigeSpel
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: 8EiCEivS8vHLnTHK
+      configuration:
+        items:
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uawlkVestigeReco
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: G72zhoCXrJyLdI87
+      configuration:
+        items:
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uawlkAuraOfPower
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      hint: ''
+    - type: ItemGrant
+      title: Subclass Features
+      _id: nUtboTdCM3jFXqCY
+      configuration:
+        items:
+          - uuid: Compendium.UA2026-MysticSubclasses.classes.Item.uawlkSemblanceOf
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      hint: ''
+  description:
+    value: >-
+      <blockquote><p><em>Wield the Remnants of a Dying God’s
+      Power</em></p></blockquote><p>Your pact draws on the power of a dying god,
+      a being once worshipped by countless followers but now abandoned and
+      forgotten. This dying god, known as a vestige, might have been benevolent,
+      evil, or strange and unknowable, but now it is driven to regain its former
+      power. The vestige needs your help it is willing to share its remaining
+      strength with you.</p>
+    chat: ''
+  identifier: vestige
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: warlock
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772943980333
+  modifiedTime: 1772944090267
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkVestigePatr'

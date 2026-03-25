@@ -1,0 +1,133 @@
+name: Images
+_id: uaArtHandout0000
+pages:
+  - sort: 100000
+    name: Magic Stealer (Rogue)
+    type: image
+    _id: Vx4VHnr4t2m2hS2v
+    system: {}
+    title:
+      show: true
+      level: 1
+    image:
+      caption: Magic Stealer Rogue
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: >-
+      modules/UA2026-MysticSubclasses/assets/journal-art/magic-stealer-rogue.webp
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaArtHandout0000.Vx4VHnr4t2m2hS2v'
+  - sort: 200000
+    name: Warrior of the Mystic Arts (Monk)
+    type: image
+    _id: owaCBTcutmdHyLbW
+    system: {}
+    title:
+      show: true
+      level: 1
+    image:
+      caption: Warrior of the Mystic Arts
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/UA2026-MysticSubclasses/assets/journal-art/mystic-arts-monk.webp
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaArtHandout0000.owaCBTcutmdHyLbW'
+  - sort: 300000
+    name: Vestige Patron (Warlock)
+    type: image
+    _id: sPvTbk84X9iBl7kA
+    system: {}
+    title:
+      show: true
+      level: 1
+    image:
+      caption: Vestige Patron
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: >-
+      modules/UA2026-MysticSubclasses/assets/journal-art/vestige-patron-warlock.webp
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaArtHandout0000.sPvTbk84X9iBl7kA'
+  - sort: 400000
+    name: Oath of the Spellguard (Paladin)
+    type: image
+    _id: vTzGriPl7NUlWcWp
+    system: {}
+    title:
+      show: true
+      level: 1
+    image:
+      caption: Oath of the Spellguard
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/UA2026-MysticSubclasses/assets/journal-art/spellguard-paladin.webp
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaArtHandout0000.vTzGriPl7NUlWcWp'
+folder: null
+categories: []
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772944262367
+  modifiedTime: 1772944262382
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!journal!uaArtHandout0000'

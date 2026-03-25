@@ -1,0 +1,148 @@
+folder: 3XRl1YHKvJOmrEE6
+name: Centered Focus
+type: feat
+_id: uamnkCenteredFoc
+img: icons/magic/perception/hand-eye-fire-blue.webp
+system:
+  activities:
+    Uac30CsfJVsTN3uL:
+      type: utility
+      _id: Uac30CsfJVsTN3uL
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: >-
+          Whenever you expend a Focus Point to use Flurry of Blows, Patient
+          Defense, or Step of the Wind
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: nGzhXh02sbrG2KBH
+          level: {}
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Center Focus
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Whenever you expend a Focus Point to use Flurry of Blows, Patient
+      Defense, or Step of the Wind, you have Advantage on any saving throw you
+      make to maintain &amp;Reference[Concentration] until the start of your
+      next turn.</p><section class="secret"
+      id="secret-hKFq33XqCyyu5rzn"><p><strong>Foundry Note</strong></p><p>The
+      feature grants an Active Effect that grants Advantage on Concentration
+      saving throws.</p></section>
+    chat: ''
+  identifier: centered-focus
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 11
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Centered Focus
+    img: icons/magic/perception/hand-eye-fire-blue.webp
+    origin: Compendium.UA2026-MysticSubclasses.classes.Item.uamnkCenteredFoc
+    transfer: false
+    _id: nGzhXh02sbrG2KBH
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.concentration.roll.mode
+        mode: 2
+        value: '1'
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 6
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uamnkCenteredFoc.nGzhXh02sbrG2KBH'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772936220292
+  modifiedTime: 1772936524837
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uamnkCenteredFoc'

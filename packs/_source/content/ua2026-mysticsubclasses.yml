@@ -1,0 +1,185 @@
+name: UA2026-MysticSubclasses
+_id: uaMysticClassDoc
+pages:
+  - sort: 100000
+    name: Warrior of the Mystic Arts (Monk)
+    type: subclass
+    _id: 9O7olxLiwa7OKC6o
+    system:
+      item: Compendium.UA2026-MysticSubclasses.classes.Item.uamnkMysticArts0
+      description:
+        value: >-
+          <p>@Embed[Compendium.UA2026-MysticSubclasses.content.JournalEntry.uaArtHandout0000.JournalEntryPage.owaCBTcutmdHyLbW
+          caption=false classes="three right"]</p><blockquote><p><em>Weave
+          Martial and Mystic
+          Arts</em></p></blockquote><p>@UUID[Compendium.UA2026-MysticSubclasses.classes.Item.uamnkMysticArts0]{Warriors
+          of the Mystic Arts} wield magic to supplement their martial skill.
+          They harness their supernatural focus to enhance their magical and
+          physical abilities.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaMysticClassDoc.9O7olxLiwa7OKC6o'
+  - sort: 200000
+    name: Oath of the Spellguard (Paladin)
+    type: subclass
+    _id: wC9v1ECQrKqVHY9C
+    system:
+      item: Compendium.UA2026-MysticSubclasses.classes.Item.uapdnSpellguard0
+      description:
+        value: >-
+          <p>@Embed[Compendium.UA2026-MysticSubclasses.content.JournalEntry.uaArtHandout0000.JournalEntryPage.vTzGriPl7NUlWcWp
+          caption=false classes="three right"]</p><blockquote><p>Protect Your
+          Allies from Villainous Magic</p></blockquote><p>Paladins who take the
+          @UUID[Compendium.UA2026-MysticSubclasses.classes.Item.uapdnSpellguard0]{Oath
+          of the Spellguard} are sworn to battle those who use magic to harm
+          others. They often serve as bodyguards to upstanding mages, but their
+          most important role is protecting allies from devastating magical
+          attacks. Those who swear this oath ensure that villains who misuse
+          magic are brought to justice.</p><p>These paladins share the following
+          tenets:</p><ul><li><p>Protect the innocent from wicked
+          mages.</p></li><li><p>Prevent magic from falling into villains’
+          hands.</p></li><li><p>Protect mages who use magic
+          honorably.</p></li></ul>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaMysticClassDoc.wC9v1ECQrKqVHY9C'
+  - sort: 300000
+    name: Magic Stealer (Rogue)
+    type: subclass
+    _id: PCI5D1Fj3UG2r7mL
+    system:
+      item: Compendium.UA2026-MysticSubclasses.classes.Item.uargeMagicSteale
+      description:
+        value: >-
+          <p>@Embed[Compendium.UA2026-MysticSubclasses.content.JournalEntry.uaArtHandout0000.JournalEntryPage.Vx4VHnr4t2m2hS2v
+          caption=false classes="three right"]</p><blockquote><p>Steal Magical
+          Power to Empower Yourself</p></blockquote><p>While ordinary thieves
+          are cutting purses and burgling homes, a
+          @UUID[Compendium.UA2026-MysticSubclasses.classes.Item.uargeMagicSteale]{Magic
+          Stealer} is after a much more valuable prize: magic. The Magic Stealer
+          preys on spellcasters, repurposing their magic and eluding divination
+          spells to take magical power at the point of a knife.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaMysticClassDoc.PCI5D1Fj3UG2r7mL'
+  - sort: 400000
+    name: Vestige Patron (Warlock)
+    type: subclass
+    _id: WxaB0Fg3NGDOZcSO
+    system:
+      item: Compendium.UA2026-MysticSubclasses.classes.Item.uawlkVestigePatr
+      description:
+        value: >-
+          <p>@Embed[Compendium.UA2026-MysticSubclasses.content.JournalEntry.uaArtHandout0000.JournalEntryPage.sPvTbk84X9iBl7kA
+          caption=false classes="three right"]</p><blockquote><p><em>Wield the
+          Remnants of a Dying God’s Power</em></p></blockquote><p>Your pact
+          draws on the power of a dying god, a being once worshipped by
+          countless followers but now abandoned and forgotten. This dying god,
+          known as a
+          @UUID[Compendium.UA2026-MysticSubclasses.classes.Item.uawlkVestigePatr]{vestige},
+          might have been benevolent, evil, or strange and unknowable, but now
+          it is driven to regain its former power. The vestige needs your help
+          it is willing to share its remaining strength with you.</p>
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: dnd5ebuilder0000
+      modifiedTime: 1772944467658
+    _key: '!journal.pages!uaMysticClassDoc.WxaB0Fg3NGDOZcSO'
+folder: null
+categories: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  core:
+    locked: false
+    sheetClass: dnd-players-handbook.PlayersHandbookJournalSheet
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772944241312
+  modifiedTime: 1773010286476
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!journal!uaMysticClassDoc'

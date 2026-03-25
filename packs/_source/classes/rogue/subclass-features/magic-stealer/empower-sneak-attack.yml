@@ -1,0 +1,183 @@
+folder: USbEBMFGGEjx7fwk
+name: Empower Sneak Attack
+type: feat
+_id: uargeEmpowerSnea
+img: icons/magic/control/energy-stream-link-white.webp
+system:
+  activities:
+    3s2q68H0Ep4OwtVZ:
+      type: utility
+      name: Absorb Magical Energy
+      _id: 3s2q68H0Ep4OwtVZ
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: >-
+          Immediately after a creature you can see within 30 feet of you casts a
+          level 1+ spell
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+    NuIIVOUy3ZXiTzLs:
+      type: damage
+      name: Roll Extra Damage
+      _id: NuIIVOUy3ZXiTzLs
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: The next time you hit with your Sneak Attack
+      consumption:
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - custom:
+              enabled: true
+              formula: (@scaling)d6
+            bonus: ''
+            types:
+              - force
+            scaling:
+              mode: ''
+              number: 1
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: max(1,@abilities.int.mod)
+  advancement: []
+  description:
+    value: >-
+      <p>Immediately after a creature you can see within 30 feet of you casts a
+      level 1+ spell, you can take a Reaction to absorb magical energy from the
+      spell. When you do so, until the end of your next turn, the next time you
+      hit with your Sneak Attack you deal extra Force damage. To determine the
+      extra damage, roll a number of d6s equal to the spell’s level, and add
+      them together.</p><p>You can take this Reaction a number of times equal to
+      your Intelligence modifier (minimum of once), and you regain all expended
+      uses when you finish a Long Rest.</p><section class="secret"
+      id="secret-EKKHqruZyH8NdBEa"><p><strong>Foundry Note</strong></p><p>The
+      <strong>Roll Extra Damage</strong> activity presents a scaling damage
+      dialog in which you select the level of the spell you absorbed magic
+      from.</p></section>
+    chat: ''
+  identifier: empower-sneak-attack
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772943918459
+  modifiedTime: 1772979738517
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uargeEmpowerSnea'

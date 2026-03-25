@@ -1,0 +1,176 @@
+folder: ysNxUXvgUW1QqTXL
+name: Oath of the Spellguard Spells
+type: feat
+_id: uapdnSpellguardS
+img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      title: Spellguard Spells
+      _id: 7gc4eZkIost5Vmeb
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplShield0000
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Spellguard Spells
+      _id: PaG15oA7U8Fhe5TS
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSilence000
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      hint: ''
+    - type: ItemGrant
+      title: Spellguard Spells
+      _id: zXQGctANYOQ1KF97
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCounterspe
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      hint: ''
+    - type: ItemGrant
+      title: Spellguard Spells
+      _id: vlQTNJxGL2HGwslV
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplOtilukesRe
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 13
+      hint: ''
+    - type: ItemGrant
+      title: Spellguard Spells
+      _id: dQQpo0eTWrLT5LTG
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCircleofPo
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 17
+      hint: ''
+  description:
+    value: >-
+      <p>The magic of your oath ensures you always have certain spells ready;
+      when you reach a Paladin level specified in the Oath of the Spellguard
+      Spells table, you thereafter always have the listed spells
+      prepared.</p><table><caption>Oath of Spellguard
+      Spells</caption><thead><tr><td>Paladin
+      Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detect
+      Magic},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{Shield}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib]{See
+      Invisibility},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSilence000]{Silence}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCounterspe]{Counterspell},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel
+      Magic}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{Freedom
+      of Movement},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplOtilukesRe]{Otiluke's
+      Resilient
+      Sphere}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCircleofPo]{Circle
+      of Power},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000]{Hallow}</td></tr></tbody></table><section
+      class="secret" id="secret-BJb1nvUMxSS77zuz"><p><strong>Foundry
+      Note</strong></p><p>The spells will be automatically granted as you level
+      up.</p></section>
+    chat: ''
+  identifier: oath-of-the-spellguard-spells
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772936451843
+  modifiedTime: 1772936451843
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapdnSpellguardS'

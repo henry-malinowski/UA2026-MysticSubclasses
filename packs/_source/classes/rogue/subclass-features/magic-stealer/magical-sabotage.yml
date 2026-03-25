@@ -1,0 +1,347 @@
+folder: USbEBMFGGEjx7fwk
+name: Magical Sabotage
+type: feat
+_id: uargeMagicSabota
+img: icons/magic/control/voodoo-doll-pain-damage-pink.webp
+system:
+  activities:
+    XuzMD7C3plNJTFiE:
+      type: utility
+      name: Spell Susceptibility
+      _id: XuzMD7C3plNJTFiE
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: true
+        override: false
+        value: '1'
+      effects:
+        - _id: GT9LCRyAvO9Tr813
+          level: {}
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: modules/UA2026-MysticSubclasses/assets/icons/rear-aura.svg
+    EJIbs64FFpW5R4Jv:
+      type: utility
+      name: Disrupt Spell
+      _id: EJIbs64FFpW5R4Jv
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: my9WZzx6hem2Eul3
+          level: {}
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: modules/UA2026-MysticSubclasses/assets/icons/icicles-fence.svg
+    j12X9BHA8uRRlV9S:
+      type: utility
+      name: Steal Resistance
+      _id: j12X9BHA8uRRlV9S
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: QcW8RDzkoFVd2SVC
+          level: {}
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: modules/UA2026-MysticSubclasses/assets/icons/cloak-dagger.svg
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You gain the following
+      @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgeCunningStr]{Cunning
+      Strike} options.</p><p><strong>Spell Susceptibility (Cost: 2d6).</strong>
+      The target has Disadvantage on the next saving throw it makes against a
+      spell until the start of your next turn.</p><p><strong>Disrupt Spell
+      (Cost: 3d6).</strong> The target’s magical acuity is disrupted until the
+      start of your next turn. Whenever the target casts a spell during that
+      time, it must succeed on an Intelligence saving throw or the spell
+      dissipates with no effect, and the action, Bonus Action, or Reaction used
+      to cast it is wasted. If that spell was cast with a spell slot, the slot
+      isn’t expended.</p><p><strong>Steal Resistance (Cost: 2d6).</strong>
+      Choose one kind of damage. If the target has Resistance to that kind of
+      damage, until the start of your next turn, the target loses that
+      Resistance and you gain Resistance to that damage type.</p><section
+      class="secret" id="secret-T2A1qBm93zgualMb"><p><strong>Foundry
+      Note</strong></p><p>This feature contains 3 active effects that can be
+      applied for tracking the cunning strike used but their application is not
+      automated.</p></section>
+    chat: ''
+  identifier: magical-sabotage
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Magical Sabotage (Spell Susceptibility)
+    img: icons/magic/control/voodoo-doll-pain-damage-pink.webp
+    origin: Compendium.UA2026-MysticSubclasses.classes.Item.uargeMagicSabota
+    transfer: false
+    _id: GT9LCRyAvO9Tr813
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 6
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>This creature has Disadvantage on the next saving throw it makes
+      against a spell before the start of the Magic Stealer's next turn.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uargeMagicSabota.GT9LCRyAvO9Tr813'
+  - name: Magical Sabotage (Disrupt Spell)
+    img: icons/magic/control/voodoo-doll-pain-damage-pink.webp
+    origin: Compendium.UA2026-MysticSubclasses.classes.Item.uargeMagicSabota
+    transfer: false
+    _id: my9WZzx6hem2Eul3
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 6
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>This creature must succeed on an Intelligence saving throw when casting
+      a spell, or the spell dissipates. If the spell dissipates the action is
+      wasted and the resource spent (unless it was cast with a spell slot.)</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uargeMagicSabota.my9WZzx6hem2Eul3'
+  - name: Magical Sabotage (Resistance Stolen)
+    img: icons/magic/control/voodoo-doll-pain-damage-pink.webp
+    origin: Compendium.UA2026-MysticSubclasses.classes.Item.uargeMagicSabota
+    transfer: false
+    _id: QcW8RDzkoFVd2SVC
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 6
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uargeMagicSabota.QcW8RDzkoFVd2SVC'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772943945663
+  modifiedTime: 1772980219444
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uargeMagicSabota'

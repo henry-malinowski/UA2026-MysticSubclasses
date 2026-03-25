@@ -1,0 +1,54 @@
+folder: ysNxUXvgUW1QqTXL
+name: Spell-Breaking Blade
+type: feat
+_id: uapdnSpellBreaki
+img: icons/weapons/swords/sword-flanged-lightning.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Immediately after you hit a creature with your
+      @UUID[Compendium.UA2026-MysticSubclasses.classes.Item.uapdnStrikeSpell]{Spellguard
+      Strike}, you can cast <em>Counterspell</em> as part of the same
+      Reaction.</p><p>When you cast <em>Counterspell</em> with a spell slot,
+      that slot isn’t expended if the spell fails to stop a spell.</p><section
+      class="secret" id="secret-evFAPAnFiUoESSIZ"><p><strong>Foundry
+      Note</strong></p><p>If you stop a spell using this <em>Counterspell</em>,
+      click the Refund Resource button on the spell's chat card to regain the
+      spell slot.</p></section>
+    chat: ''
+  identifier: spell-breaking-blade
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772936477630
+  modifiedTime: 1772979383128
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapdnSpellBreaki'

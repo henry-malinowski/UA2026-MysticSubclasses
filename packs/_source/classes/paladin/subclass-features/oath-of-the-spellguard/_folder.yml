@@ -1,0 +1,18 @@
+type: Item
+folder: ppxX1skY2cXrg7UP
+name: Oath of the Spellguard
+color: null
+sorting: a
+_id: ysNxUXvgUW1QqTXL
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  lastModifiedBy: dnd5ebuilder0000
+  modifiedTime: 1772503027634
+_key: '!folders!ysNxUXvgUW1QqTXL'

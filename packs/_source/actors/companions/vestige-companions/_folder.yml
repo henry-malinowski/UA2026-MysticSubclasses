@@ -1,0 +1,17 @@
+type: Actor
+folder: 4py6tNohmHnMyGTt
+name: Vestige Companions
+color: null
+sorting: a
+_id: WogWcjk2lN9aUWic
+description: ''
+sort: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  lastModifiedBy: null
+_key: '!folders!WogWcjk2lN9aUWic'

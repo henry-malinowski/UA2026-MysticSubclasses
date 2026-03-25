@@ -1,0 +1,160 @@
+folder: ysNxUXvgUW1QqTXL
+name: Guardian Bond
+type: feat
+_id: uapdnGuardianBon
+img: icons/magic/control/debuff-chains-orb-movement-blue.webp
+system:
+  activities:
+    3XFL2cfoGrrJ1xjJ:
+      type: utility
+      name: Forge Bond
+      _id: 3XFL2cfoGrrJ1xjJ
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbpdnChannelDiv
+      description:
+        chatFlavor: ''
+      duration:
+        units: hour
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: fz43zbVm7VAbXkG0
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: willing
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: systems/dnd5e/icons/svg/trait-damage-immunities.svg
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>As a Magic Action, you can expend one use of your Channel Divinity to
+      forge a divine bond with a willing creature within 5 feet of yourself. The
+      bond lasts for 1 hour or until you have the &amp;Reference[unconscious
+      apply=false] condition. For the duration, while the bonded creature is
+      within your reach and is hit by an attack roll, you can take a
+      &amp;Reference[Reaction] to add your Charisma modifier (minimum of +1) to
+      that creature’s AC, possibly causing the attack to miss.</p><p>You can end
+      your divine bond at any time (no action required). If you already have a
+      divine bond when you forge a new one, the previous bond ends.</p><section
+      class="secret" id="secret-evFAPAnFiUoESSIZ"><p><strong>Foundry
+      Note</strong></p><p>This feature includes an Active Effect for tracking
+      the bond but does not automate prompting for a reaction or automatically
+      end when you use this feature again.</p></section>
+    chat: ''
+  identifier: guardian-bond
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Guardian Bond
+    img: icons/magic/control/debuff-chains-orb-movement-blue.webp
+    origin: Compendium.UA2026-MysticSubclasses.classes.Item.uapdnGuardianBon
+    transfer: false
+    _id: fz43zbVm7VAbXkG0
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 3600
+      rounds: 600
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>This creature is bonded to the Paladin. While this creature is within
+      the Paladin's reach, the Paladin may use their reaction to add there
+      Charisma modifier to this creature's AC.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!uapdnGuardianBon.fz43zbVm7VAbXkG0'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772936405737
+  modifiedTime: 1772979256508
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uapdnGuardianBon'

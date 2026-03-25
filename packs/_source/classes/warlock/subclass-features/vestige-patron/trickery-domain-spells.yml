@@ -1,0 +1,155 @@
+folder: pc5CSRVFokVDg9ec
+name: Trickery Domain Spells
+type: feat
+_id: uawlkTickerySpel
+img: icons/magic/symbols/circled-gem-pink.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      title: Domain Spells
+      _id: CDWfSNzoNGQM95CS
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Domain Spells
+      _id: Se1iWmtr0cM0SU3G
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHypnoticPa
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplNondetecti
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      hint: ''
+    - type: ItemGrant
+      title: Domain Spells
+      _id: MKwrFBfEG8jCngo5
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 7
+      hint: ''
+    - type: ItemGrant
+      title: Domain Spells
+      _id: KweagS5XO3hsWRNk
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplModifyMemo
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      hint: ''
+  description:
+    value: >-
+      <p>Your connection to this divine domain ensures you always have certain
+      spells ready. When you reach a Warlock level specified in the Trickery
+      Domain Spells table, you thereafter always have the listed spells
+      prepared.</p><table><caption>Trickery Domain
+      Spells</caption><thead><tr><td>Warlock Level</td><td>Prepared
+      Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm
+      Person},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{Disguise
+      Self},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{Invisibility},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{Pass
+      without
+      Trace}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHypnoticPa]{Hypnotic
+      Pattern},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplNondetecti]{Nondetection}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0]{Confusion},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD]{Dimension
+      Door}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe]{Dominate
+      Person},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplModifyMemo]{Modify
+      Memory}</td></tr></tbody></table><section class="secret"
+      id="secret-1AoObJM20S7dzOx9"><p><strong>Foundry Note</strong></p><p>These
+      spells are granted automatically as you advance.</p></section>
+    chat: ''
+  identifier: trickery-domain-spells
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: domainSpellList
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772944049630
+  modifiedTime: 1772944049630
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkTickerySpel'

@@ -1,0 +1,154 @@
+folder: pc5CSRVFokVDg9ec
+name: Life Domain Spells
+type: feat
+_id: uawlkLifeSpells0
+img: icons/magic/life/cross-flared-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      title: Domain Spells
+      _id: vvcbnaFJnZTRsIZD
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBless00000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      title: Domain Spells
+      _id: RmyYzGF91yEXGWrS
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMassHealin
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplRevivify00
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      hint: ''
+    - type: ItemGrant
+      title: Domain Spells
+      _id: InKgaXG8nVtHyJdH
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAuraofLife
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 7
+      hint: ''
+    - type: ItemGrant
+      title: Domain Spells
+      _id: 0FCKfdRGvmpSybZY
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMassCureWo
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      hint: ''
+  description:
+    value: >-
+      <p>Your connection to this divine domain ensures you always have certain
+      spells ready. When you reach a Warlock level specified in the Life Domain
+      Spells table, you thereafter always have the listed spells
+      prepared.</p><table><caption>Life Domain
+      Spells</caption><thead><tr><td>Warlock Level</td><td>Prepared
+      Spells</td></tr></thead><tbody><tr><td>3</td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000]{Aid},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBless00000]{Bless},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{Cure
+      Wounds},<br
+      />@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Lesser
+      Restoration}</p></td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassHealin]{Mass
+      Healing Word},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRevivify00]{Revivify}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAuraofLife]{Aura
+      of Life},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0]{Death
+      Ward}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater
+      Restoration},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassCureWo]{Mass
+      Cure Wounds}</td></tr></tbody></table><section class="secret"
+      id="secret-Z9pAhvumQlf7onuP"><p><strong>Foundry Note</strong></p><p>These
+      spells are granted automatically as you advance.</p></section>
+    chat: ''
+  identifier: life-domain-spells
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: domainSpellList
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772944014530
+  modifiedTime: 1772944014530
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkLifeSpells0'

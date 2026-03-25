@@ -1,0 +1,48 @@
+folder: 3XRl1YHKvJOmrEE6
+name: Improved Mystic Fighting Style
+type: feat
+_id: uamnkImprovedMys
+img: icons/magic/light/beams-rays-orange-purple-small.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>When you take the Attack action on your turn, you can replace two of
+      the attacks with a casting of one of your level 1 or 2 Sorcerer spells
+      that has a casting time of an action.</p>
+    chat: ''
+  identifier: improved-mystic-fighting-style
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 17
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772936255735
+  modifiedTime: 1772936255735
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uamnkImprovedMys'

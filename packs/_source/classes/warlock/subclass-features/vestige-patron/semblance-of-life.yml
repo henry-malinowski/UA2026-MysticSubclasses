@@ -1,0 +1,585 @@
+folder: pc5CSRVFokVDg9ec
+name: Semblance of Life
+type: feat
+_id: uawlkSemblanceOf
+img: icons/magic/symbols/runes-star-pentagon-orange.webp
+system:
+  activities:
+    SFOjIkGGZj3qhhsU:
+      type: cast
+      _id: SFOjIkGGZj3qhhsU
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: true
+        value: '1'
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 14
+          max: 15
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: warlock
+      spell:
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: false
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele
+        ability: ''
+        level: 7
+      name: Summon Celestial (7th Level)
+    xuM308jZvtvkCuUX:
+      type: cast
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: true
+        value: '1'
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 16
+          max: 17
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: warlock
+      spell:
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: false
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele
+        ability: ''
+        level: 8
+      name: Summon Celestial (8th Level)
+      _id: xuM308jZvtvkCuUX
+    IGJzBESWoLyN5dmg:
+      type: cast
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: true
+        value: '1'
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 18
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: warlock
+      spell:
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: false
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele
+        ability: ''
+        level: 9
+      name: Summon Celestial (9th Level)
+      _id: IGJzBESWoLyN5dmg
+    QNlJMIVLOwIhoFSl:
+      type: cast
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: true
+        value: '1'
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 14
+          max: 15
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: warlock
+      spell:
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: false
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien
+        ability: ''
+        level: 7
+      name: Summon Fiend (7th Level)
+      _id: QNlJMIVLOwIhoFSl
+    NgXxJihkw5J1aImB:
+      type: cast
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: true
+        value: '1'
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 16
+          max: 17
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: warlock
+      spell:
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: false
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien
+        ability: ''
+        level: 8
+      name: Summon Fiend (8th Level)
+      _id: NgXxJihkw5J1aImB
+    CzncOzo082GxKB8c:
+      type: cast
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: true
+        value: '1'
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 18
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: warlock
+      spell:
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: false
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSummonFien
+        ability: ''
+        level: 9
+      name: Summon Fiend (9th Level)
+      _id: CzncOzo082GxKB8c
+    NHjRYuLrX1luFjo3:
+      type: cast
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: true
+        value: '1'
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 14
+          max: 15
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: warlock
+      spell:
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: false
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde
+        ability: ''
+        level: 7
+      name: Summon Undead (7th Level)
+      _id: NHjRYuLrX1luFjo3
+    QQDepUGZLTVtindp:
+      type: cast
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: true
+        value: '1'
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 16
+          max: 17
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: warlock
+      spell:
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: false
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde
+        ability: ''
+        level: 8
+      name: Summon Undead (8th Level)
+      _id: QQDepUGZLTVtindp
+    LIDcqzR6fwMdhDkJ:
+      type: cast
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: true
+        value: '1'
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 18
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: warlock
+      spell:
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: false
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde
+        ability: ''
+        level: 9
+      name: Summon Undead (9th Level)
+      _id: LIDcqzR6fwMdhDkJ
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>Your Vestige Companion continues to grow in strength, and with your
+      assistance, it can briefly adopt a more powerful form. Depending on the
+      vestige’s type, you can cast one of the following spells while the vestige
+      is within 90 feet of you without expending a spell slot or needing
+      Material components: <em>Summon Celestial</em> (Celestial vestige),
+      <em>Summon Fiend</em> (Fiend vestige), or <em>Summon Undead</em> (Undead
+      vestige). When you cast the spell with this feature, the vestige becomes
+      the summoned creature. Its game statistics are replaced by the summoned
+      creature’s stat block, the spell’s level is equal to half your Warlock
+      level (round down; maximum level 9), and the spell’s duration is 1 minute.
+      When the spell ends, the vestige returns to its previous form.</p><p>Once
+      you have cast the spell in this way, you can’t do so again until you
+      finish a Long Rest.</p><section class="secret"
+      id="secret-vZalmDSCpVh4yzu3"><p><strong>Foundry Note</strong></p><p>This
+      feature grants 3 cast activities. The level of the Summon spells
+      automatically increases with your Warlock level.</p></section>
+    chat: ''
+  identifier: semblance-of-life
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 14
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1772944041017
+  modifiedTime: 1772981459341
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!items!uawlkSemblanceOf'

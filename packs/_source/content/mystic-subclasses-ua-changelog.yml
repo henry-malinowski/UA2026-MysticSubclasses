@@ -1,0 +1,79 @@
+name: Mystic Subclasses UA Changelog
+_id: uaChangelog00000
+pages:
+  - sort: 100000
+    name: v1.0.0
+    type: text
+    _id: KduAbJoUv4CKt7qG
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <ul><li><p>Initial release</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaChangelog00000.KduAbJoUv4CKt7qG'
+  - sort: 200000
+    name: v1.0.1
+    type: text
+    _id: dClavQFW2oLGJdw3
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <ul><li><p>Updated build system</p></li><li><p>Added Changelog
+        Journal</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!journal.pages!uaChangelog00000.dClavQFW2oLGJdw3'
+folder: null
+categories: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: dnd-players-handbook.PlayersHandbookJournalSheet
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774463614445
+  modifiedTime: 1774463614445
+  lastModifiedBy: dnd5ebuilder0000
+_key: '!journal!uaChangelog00000'
