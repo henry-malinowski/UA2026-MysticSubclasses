@@ -1,3 +1,5 @@
+const MODULE_ID = "UA2026-MysticSubclasses";
+
 Hooks.once("init", () => {
 	CONFIG.DND5E.featureTypes.class.subtypes.domainSpellList =
 		"Domain Spell List";
