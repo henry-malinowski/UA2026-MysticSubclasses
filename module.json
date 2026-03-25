@@ -1,92 +1,94 @@
 {
-  "id": "UA2026-MysticSubclasses",
-  "title": "UA2026: Mystic Subclasses",
-  "description": "A Foundry implementation of the UA-MysticSubclasses document released on D&DBeyond",
-  "version": "1.0.0",
-  "compatibility": {
-    "minimum": "13",
-    "verified": "13"
-  },
-  "media": [
-    {
-      "type": "setup",
-      "url": "modules/UA2026-MysticSubclasses/assets/banners/media-cover.webp",
-      "loop": false,
-      "flags": {}
-    }
-  ],
-  "esmodules": [
-    "scripts/ua2026-mystic-subclasses.mjs"
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {
-          "minimum": "5.2.0",
-          "verified": "5.2.5"
-        }
-      }
-    ],
-    "requires": [
-      {
-        "id": "dnd-players-handbook",
-        "type": "module"
-      }
-    ]
-  },
-  "authors": [
-    {
-      "name": "Henry Malinowski",
-      "discord": "hmalinowski",
-      "url": "https://henry-malinowski.github.io/5eUA-for-FoundryVTT/"
-    }
-  ],
-  "packs": [
-    {
-      "name": "content",
-      "label": "Mystic Subclasses UA Document",
-      "path": "packs/content",
-      "type": "JournalEntry",
-      "banner": "modules/UA2026-MysticSubclasses/assets/compendium/banner-01.webp",
-      "system": "dnd5e"
-    },
-    {
-      "name": "classes",
-      "label": "Character Subclasses",
-      "path": "packs/classes",
-      "type": "Item",
-      "banner": "modules/UA2026-MysticSubclasses/assets/compendium/banner-02.webp",
-      "system": "dnd5e"
-    },
-    {
-      "name": "actors",
-      "label": "Actors",
-      "path": "packs/actors",
-      "type": "Actor",
-      "banner": "modules/UA2026-MysticSubclasses/assets/compendium/banner-03.webp",
-      "system": "dnd5e"
-    }
-  ],
-  "packFolders": [
-    {
-      "name": "UA2026-MysticSubclasses",
-      "color": "#323b29",
-      "sorting": "m",
-      "packs": ["content", "classes", "actors"]
-    }
-  ],
-  "flags": {
-    "dnd5e": {
-      "sourceBooks": {
-        "UA2026-MysticSubclasses": "UA2026-MysticSubclasses"
-      }
-    }
-  },
-  "readme": "https://github.com/henry-malinowski/UA2026-MysticSubclasses/main/README.md",
-  "bugs": "https://github.com/henry-malinowski/UA2026-MysticSubclasses/-/issues",
-  "url": "https://henry-malinowski.github.io/5eUA-for-FoundryVTT/",
-  "manifest": "https://raw.githubusercontent.com/henry-malinowski/UA2026-MysticSubclasses/refs/heads/main/module.json",
-  "download": "https://github.com/henry-malinowski/UA2026-MysticSubclasses/releases/download/v1.0.0/module.zip"
+	"id": "UA2026-MysticSubclasses",
+	"title": "UA2026: Mystic Subclasses",
+	"description": "A Foundry implementation of the UA-MysticSubclasses document released on D&DBeyond",
+	"version": "1.0.1",
+	"compatibility": {
+		"minimum": "13",
+		"verified": "13"
+	},
+	"media": [
+		{
+			"type": "setup",
+			"url": "modules/UA2026-MysticSubclasses/assets/banners/media-cover.webp",
+			"loop": false,
+			"flags": {}
+		}
+	],
+	"esmodules": ["scripts/ua2026-mystic-subclasses.mjs"],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"compatibility": {
+					"minimum": "5.2.4",
+					"verified": "5.2.5"
+				}
+			}
+		],
+		"requires": [
+			{
+				"id": "dnd-players-handbook",
+				"type": "module",
+				"compatibility": {
+					"verified": "2.1.0"
+				}
+			}
+		]
+	},
+	"authors": [
+		{
+			"name": "Henry Malinowski",
+			"discord": "hmalinowski",
+			"url": "https://henry-malinowski.github.io/5eUA-for-FoundryVTT/"
+		}
+	],
+	"packs": [
+		{
+			"name": "content",
+			"label": "Mystic Subclasses UA Document",
+			"path": "packs/content",
+			"type": "JournalEntry",
+			"banner": "modules/UA2026-MysticSubclasses/assets/compendium/banner-01.webp",
+			"system": "dnd5e"
+		},
+		{
+			"name": "classes",
+			"label": "Character Subclasses",
+			"path": "packs/classes",
+			"type": "Item",
+			"banner": "modules/UA2026-MysticSubclasses/assets/compendium/banner-02.webp",
+			"system": "dnd5e"
+		},
+		{
+			"name": "actors",
+			"label": "Actors",
+			"path": "packs/actors",
+			"type": "Actor",
+			"banner": "modules/UA2026-MysticSubclasses/assets/compendium/banner-03.webp",
+			"system": "dnd5e"
+		}
+	],
+	"packFolders": [
+		{
+			"name": "UA2026-MysticSubclasses",
+			"color": "#323b29",
+			"sorting": "m",
+			"packs": ["content", "classes", "actors"]
+		}
+	],
+	"flags": {
+		"dnd5e": {
+			"sourceBooks": {
+				"UA2026-MysticSubclasses": "UA2026-MysticSubclasses"
+			}
+		}
+	},
+	"readme": "https://github.com/henry-malinowski/UA2026-MysticSubclasses#readme",
+	"bugs": "https://github.com/henry-malinowski/UA2026-MysticSubclasses/issues",
+	"changelog": "https://github.com/henry-malinowski/UA2026-MysticSubclasses/blob/main/CHANGELOG.md",
+	"url": "https://henry-malinowski.github.io/5eUA-for-FoundryVTT/",
+	"manifest": "https://github.com/henry-malinowski/UA2026-MysticSubclasses/releases/latest/download/module.json",
+	"download": "https://github.com/henry-malinowski/UA2026-MysticSubclasses/releases/latest/download/module.zip"
 }
